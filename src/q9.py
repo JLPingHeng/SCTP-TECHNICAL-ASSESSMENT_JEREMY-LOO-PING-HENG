@@ -17,15 +17,15 @@ Write the exact git command for each step (one per line).
 """
 
 # Step 1 — Create a new branch called `my-solutions`:
-
+git branch my-solutions
 # Step 2 — Switch to `my-solutions`:
-
+git checkout my-solutions
 # Step 3 — Stage q4.md:
-
+git add q4.md
 # Step 4 — Commit with message "Add Q4 answers":
-
+git commit -m "Add Q4 answers"
 # Step 5 — Push `my-solutions` to the remote:
-
+git push origin my-solutions
 
 """
 Step 6 (short answer). You run `git status` and it says
