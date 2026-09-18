@@ -32,5 +32,5 @@ Step 6 (short answer). You run `git status` and it says
 `Changes not staged for commit`. In one sentence, what does that tell you,
 and which command moves a file from there into the next commit?
 
-    Answer:
+    Answer: It tells you that q4.md has been modified since the last commit but hasn't been added to the staging area yet; the command git add q4.md moves the file into the next commit.
 """
